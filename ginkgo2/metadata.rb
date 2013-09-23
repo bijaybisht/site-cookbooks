@@ -6,7 +6,7 @@ description      'Installs/Configures ginkgo2 which is a samara build environmen
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-depends "users"
+depends "user"
 depends "group"
 depends "sudo"
 depends "yum"

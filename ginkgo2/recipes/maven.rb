@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-remote_file  "wget #{node[:ginkgo2][:packages_url]}/tar/ginkgo2/apache-maven-3.0.4-bin.tar.gz"
+execute  "wget #{node[:ginkgo2][:packages_url]}/tar/ginkgo2/apache-maven-3.0.4-bin.tar.gz"
 
 bash "maven" do
 
